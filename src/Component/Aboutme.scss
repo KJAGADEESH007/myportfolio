@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+
+.aboutme {
+    font-family: 'Jost', sans-serif;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
+
+    .aboutme1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 80%;
+        padding-bottom: 5vw;
+
+        .aboutme2 {
+
+            width: 70%;
+
+            h1 {
+                font-size: 4vw;
+            }
+
+            h2 {
+                font-size: 2vw;
+
+                text-align: left;
+            }
+
+            p {
+                font-size: 1.5vw;
+                color: #5f5f5f;
+                text-align: justify;
+            }
+        }
+
+        a {
+            width: 20%;
+            display: flex;
+            text-align: center;
+            background-color: #1a90ff;
+            
+          
+            button {
+                font-family: 'Jost', sans-serif;
+                width: 100%;
+                color: white;
+                font-size: 1.3vw;
+                height: 2vw;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+
+    }
+}
+@media (max-width: 767px) {
+
+
+
+
+    .aboutme {
+    
+    
+        .aboutme1 {
+    
+            width: 95%;
+            padding-bottom: 7vw;
+            .aboutme2 {
+                width: 85%;
+       
+    
+                h1 {
+                    font-size: 10vw;
+                }
+    
+                h2 {
+                    font-size: 6vw;
+    
+                 
+                }
+    
+                p {
+                    font-size: 4.5vw;
+              
+                }
+            }
+    
+            a {
+                width: 34%;
+              
+                button {
+                    font-size: 4.3vw;
+                    height: 8vw
+                }
+            }
+    
+        }
+    }
+
+
+
+
+
+
+
+}

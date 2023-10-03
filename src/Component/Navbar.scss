@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7ea6d1;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+  }
+  
+  .navbar.scrolling {
+    background-color: #000000; /* Change to your desired background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    img{
+      border-radius: 50%;
+      width: 20vw;
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    font-size: 1.3vw;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    transition: color 0.3s, font-size 0.3s;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  li:hover {
+    color: #007bff; 
+    font-size: 18px;
+  }
+  .navbar-toggle {
+    display: none; 
+  }
+  
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none; 
+  }
+
+  .navbar-toggle {
+    width: 100%;
+    display: flex;
+svg{
+  color: white;
+}
+  
+  }
+}
+.menuItems{
+
+  div{
+    width: 100%;
+
+ul{
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+li{
+  font-family: 'Jost', sans-serif;
+}
+}
+  }
+  
+  
+
+}
+  
+  
